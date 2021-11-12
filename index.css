@@ -1,21 +1,21 @@
 @font-face {
     font-family: robo;
-    src: url(../assets/fonts/Roboto-Light.ttf);
+    src: url(./assets/fonts/Roboto-Light.ttf);
 }
 
 @font-face {
     font-family: Header;
-    src: url(../assets/fonts/NotoSans-Regular.ttf);
+    src: url(./assets/fonts/NotoSans-Regular.ttf);
 }
 
 @font-face {
     font-family: Content;
-    src: url(../assets/fonts/ZenKurenaido-Regular.ttf);
+    src: url(./assets/fonts/ZenKurenaido-Regular.ttf);
 }
 
 @font-face {
     font-family: logo;
-    src: url(../assets/fonts/Yaldevi-VariableFont_wght.ttf);
+    src: url(./assets/fonts/Yaldevi-VariableFont_wght.ttf);
 }
 
 * {
@@ -37,7 +37,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* height: 10000px; */
     width: 100%;
     color: white;
     box-sizing: border-box;
@@ -97,7 +96,6 @@ section {
 
 .main-header {
     color: rgb(0, 0, 0);
-    /* text-shadow: 0px 2px 10px rgb(60, 255, 0), 5px 0px 10px #1900ff; */
     text-shadow: 0px 0px 10px rgb(255, 186, 186), 1px 1px 10px red;
     font-size: 5vw;
     font-weight: bold;
@@ -276,7 +274,6 @@ header.sticky .navigation li a:hover {
         position: relative;
         width: 100%;
         align-self: center;
-        /* background-color: #000; */
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -286,7 +283,6 @@ header.sticky .navigation li a:hover {
         position: relative;
         width: 100%;
         align-self: center;
-        /* background-color: #7e0000; */
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -321,7 +317,7 @@ header.sticky .navigation li a:hover {
     }
 
     .menutoggle .active {
-        background: url(../assets/img/hamburger.png);
+        background: url(./assets/img/hamburger.png);
         background-size: 60px;
         background-repeat: no-repeat;
         background-position: center;
