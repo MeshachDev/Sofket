@@ -1,21 +1,21 @@
 @font-face {
     font-family: robo;
-    src: url(./assets/fonts/Roboto-Light.ttf);
+    src: url(./fonts/Roboto-Light.ttf);
 }
 
 @font-face {
     font-family: Header;
-    src: url(./assets/fonts/NotoSans-Regular.ttf);
+    src: url(./fonts/NotoSans-Regular.ttf);
 }
 
 @font-face {
     font-family: Content;
-    src: url(./assets/fonts/ZenKurenaido-Regular.ttf);
+    src: url(./fonts/ZenKurenaido-Regular.ttf);
 }
 
 @font-face {
     font-family: logo;
-    src: url(./assets/fonts/Yaldevi-VariableFont_wght.ttf);
+    src: url(./fonts/Yaldevi-VariableFont_wght.ttf);
 }
 
 * {
