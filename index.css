@@ -40,7 +40,7 @@ body {
     width: 100%;
     color: white;
     box-sizing: border-box;
-    background:radial-gradient(rgb(255, 141, 141),red ,blue);
+    background:white;
 }
 
 section {
@@ -55,7 +55,7 @@ section {
     border-radius: 18px;
     box-sizing: border-box;
     padding: 50px;
-    box-shadow: 0px 0px 10px 2px rgb(0, 0, 0), 2px 0px 20px 3px rgb(0, 0, 0) inset;
+    box-shadow: 0px 0px 10px 2px rgb(2, 13, 243), 2px 0px 20px 3px rgb(0, 0, 0) inset;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
