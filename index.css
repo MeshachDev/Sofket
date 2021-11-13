@@ -29,7 +29,9 @@
     -ms-user-select: none;
     user-select: none;
 }
-
+html{
+ scroll-behavior: smooth;
+}
 body {
     font-family: Header;
     text-align: center;
